@@ -3,77 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
 <body>
-    <section class="whole-container">
-        <section class="container-one">
-    <section class="navbar">
-        <div class="left">
-            <div class="logo">
-                <p>Header Logo</p>
-            </div>
-        </div>
-        <div class="right">
-            <ul>
-                <li><a href="#">Header link one</a></li>
-                <li><a href="#">Header link two</a></li>
-                <li><a href="#">Header link three</a></li>
-            </ul>
-        </div>
-    </section>
-    <section class="hero">
-        <div class="hero-texts">
-            <p class="main-text">This website is awesome</p>
-            <p class="secondary-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <button class="btn">
-                Sign up
-            </button>
-        </div>
-        <div class="img-placeholder">
-            <p>this is a placeholder for an image</p>
-        </div>
-    </section>
-    </section>
-    <section class="container-two">
-        <div class="title">Some random information.</div>
+    <header class="header">
         <div class="container">
-            <div class="square">
-                <img src="" alt="squares">
-                <div class="text">This is some student under an illustration or image</div>
-            </div>
-            <div class="square">
-                <img src="" alt="squares">
-                <div class="text">This is some student under an illustration or image</div>
-            </div>
-            <div class="square">
-                <img src="" alt="squares">
-                <div class="text">This is some student under an illustration or image</div>
-            </div>
-            <div class="square">
-                <img src="" alt="squares">
-                <div class="text">This is some student under an illustration or image</div>
-            </div>
+            <div class="logo">Header Logo</div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
+                </ul>
+            </nav>
         </div>
-    </section>
-    <section class="container-three">
-        <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All i know is that it looks nice.</p>
-        <p class="refer">-Someone</p>
-    </section>
-    <section class="footer">
-        <div class="box">
-            <p class="call">
-                Call to action! It's time!
-            </p>
-            <p class="msg">
-                Sign up for our product by clicking that button rightover there!
-            </p>
-            <button class="bttn">
-                Sign up
-            </button>
-        </div>
-    </section>
-    </section>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>This website is awesome</h1>
+                    <p class="hero-subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                    <button class="btn">Sign up</button>
+                </div>
+                <div class="img-placeholder">
+                    <p>this is a placeholder for an image</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="container">
+                <h2>Some random information.</h2>
+                <div class="cards">
+                    <div class="card">
+                        <div class="box"></div>
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="card">
+                        <div class="box"></div>
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="card">
+                        <div class="box"></div>
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="card">
+                        <div class="box"></div>
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quote">
+            <div class="container">
+                <blockquote>
+                    <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+                    <footer>-Thor, The lightning geek</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-box">
+                    <div>
+                        <h3>Call to action! It's time!</h3>
+                        <p>Sign up for our product by clicking that button right over there!</p>
+                    </div>
+                    <button class="btn btn-outline">Sign up</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Copyright &copy; The Odin Project 2021</p>
+    </footer>
 </body>
 </html>
